@@ -13,16 +13,16 @@ module.exports = {
       primaryKey: true,
       autoIncrement: true
     },
-    prescriptionRequestedBy: {
+    user_id: {
       type:'integer',
       model:'user'
     },
-    prescriptionId: {
+    prescription_id: {
       type:'integer',
-      model:'prescription'
+      model:'prescriptions'
     },
-    approvalStatus: {
-      type:'integer',
+    approval_status: {
+      type:'string',
       enum: ['accessNotAllowed', 'accessRequested', 'accessAllowed'],
       defaultsTo: 'accessNotAllowed'
     }

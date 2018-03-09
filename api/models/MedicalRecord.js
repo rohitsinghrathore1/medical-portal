@@ -16,9 +16,13 @@ module.exports = {
       type: 'string',
       required: true
     },
-    patientId: { // one sided relationship, a medical record belongs to a user
+    user_id: { // one sided relationship, a medical record belongs to a user
       type:'integer',
       model:'user'
+    },
+    prescriptions: { // one to many  with prescriptions
+      collection: 'prescriptions',
+      via: 'medical_record_id',
     }
   }
 };

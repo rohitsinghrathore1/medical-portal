@@ -16,15 +16,7 @@ module.exports = {
       type: 'string',
       required: true
     },
-    // patientId: {
-    //   type:'integer',
-    //   model:'user'
-    // },
-    // doctorId: {
-    //   type:'integer',
-    //   model:'user'
-    // },
-    medicalRecordId: {
+    medical_record_id: {
       type:'integer',
       model:'MedicalRecord'
     }

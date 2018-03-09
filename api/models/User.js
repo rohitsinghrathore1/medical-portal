@@ -25,6 +25,10 @@ module.exports = {
       type: 'string',
       required: true
     },
+    medical_records: {
+      collection: 'medicalrecord',
+      via: 'user_id',
+    },
     roles: {
       collection: 'role',
       via: 'user_id',

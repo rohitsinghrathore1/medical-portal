@@ -46,6 +46,6 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'get /user': 'UserController.getUsers',
+  // 'get /user': 'UserController.getUsers',
 
 };
