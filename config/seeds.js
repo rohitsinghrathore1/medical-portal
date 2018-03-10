@@ -131,32 +131,38 @@ module.exports.seeds = {
       {
         id: 1,
         prescription: "some prescription 1",
-        medical_record_id: 1
+        medical_record_id: 1,
+        user_id: 1
       },
       {
         id: 2,
         prescription: "some prescription 2",
-        medical_record_id: 2
+        medical_record_id: 2,
+        user_id: 1
       },
       {
         id: 3,
         prescription: "some prescription 3",
-        medical_record_id: 3
+        medical_record_id: 3,
+        user_id: 4
       },
       {
         id: 4,
         prescription: "some prescription 4",
-        medical_record_id: 4
+        medical_record_id: 4,
+        user_id: 5
       },
       {
         id: 5,
         prescription: "some prescription 5",
-        medical_record_id: 5
+        medical_record_id: 5,
+        user_id: 5,
       },
       {
         id: 6,
         prescription: "some prescription 6",
-        medical_record_id: 1
+        medical_record_id: 1,
+        user_id: 1
       }
     ],
     overwrite: true

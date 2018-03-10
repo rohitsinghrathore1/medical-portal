@@ -13,7 +13,7 @@ module.exports = {
       primaryKey: true,
       autoIncrement: true
     },
-    user_id: {
+    user_id: { // requested by
       type:'integer',
       model:'user'
     },

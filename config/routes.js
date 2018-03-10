@@ -52,4 +52,12 @@ module.exports.routes = {
 
   '/logout': 'AuthController.logout',
 
+  'GET /medical-records': 'MedicalRecordController.getUsersMedicalRecords',
+
+  'GET /users-prescriptions' : 'PrescriptionsController.getUsersPrescriptions',
+
+  'POST /request-prescription-access': 'UserPrescriptionController.requestPrescriptionAccess',
+
+  'PUT  /approve-prescription-access':'UserPrescriptionController.updatePrescriptionAccessStatus',
+
 };

@@ -16,6 +16,10 @@ module.exports = {
       type: 'string',
       required: true
     },
+    user_id: {
+      type: 'integer',
+      model: 'user'
+    },
     medical_record_id: {
       type:'integer',
       model:'MedicalRecord'
