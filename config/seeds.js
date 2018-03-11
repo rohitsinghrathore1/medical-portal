@@ -178,17 +178,20 @@ module.exports.seeds = {
       {
         id: 1,
         user_id: 2,
-        prescription_id: 3
+        prescription_id: 3,
+        prescription_owner: 4
       },
       {
         id: 2,
         user_id: 2,
-        prescription_id: 1
+        prescription_id: 1,
+        prescription_owner: 1
       },
       {
         id: 3,
         user_id: 3,
-        prescription_id: 2
+        prescription_id: 2,
+        prescription_owner: 1
       },
     ],
     overwrite: true

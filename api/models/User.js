@@ -34,6 +34,11 @@ module.exports = {
       collection: 'role',
       via: 'user_id',
       through: 'userrole'
+    },
+    prescriptions: {
+      collection: 'Prescriptions',
+      via: 'user_id',
+      through: 'userprescription'
     }
   },
   beforeCreate: function(user, cb){

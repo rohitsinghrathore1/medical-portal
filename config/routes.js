@@ -54,12 +54,14 @@ module.exports.routes = {
 
   'GET /medical-records': 'MedicalRecordController.getUsersMedicalRecords',
 
-  'GET /users-prescriptions' : 'PrescriptionsController.getUsersPrescriptions',
-
   'GET /prescriptions' : 'PrescriptionsController.getAllPrescriptions',
+  'GET /users-prescriptions' : 'PrescriptionsController.getUsersPrescriptions',
+  'GET /getPrescriptionDetails/:id' : 'PrescriptionsController.getPrescriptionDetails',
 
   'POST /request-prescription-access': 'UserPrescriptionController.requestPrescriptionAccess',
 
-  'PUT  /approve-prescription-access':'UserPrescriptionController.updatePrescriptionAccessStatus',
+  'PUT  /approve-reject-prescription-access':'UserPrescriptionController.updatePrescriptionAccessStatus',
+
+  'GET /approve-reject-prescriptions': 'UserPrescriptionController.getUserPrescriptionRecordsByUser'
 
 };

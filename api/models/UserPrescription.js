@@ -21,10 +21,14 @@ module.exports = {
       type:'integer',
       model:'prescriptions'
     },
+    prescription_owner: {
+      type:'integer',
+      model:'user'
+    },
     approval_status: {
       type:'string',
-      enum: ['accessNotAllowed', 'accessRequested', 'accessAllowed'],
-      defaultsTo: 'accessNotAllowed'
+      enum: ['accessRequested', 'accessAllowed'],
+      defaultsTo: 'accessRequested'
     }
   }
 };

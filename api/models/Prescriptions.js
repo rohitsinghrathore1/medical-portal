@@ -20,7 +20,7 @@ module.exports = {
       type: 'string',
       required: true
     },
-    user_id: {
+    user_id: { // patient
       type: 'integer',
       model: 'user'
     },
