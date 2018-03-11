@@ -56,6 +56,8 @@ module.exports.routes = {
 
   'GET /users-prescriptions' : 'PrescriptionsController.getUsersPrescriptions',
 
+  'GET /prescriptions' : 'PrescriptionsController.getAllPrescriptions',
+
   'POST /request-prescription-access': 'UserPrescriptionController.requestPrescriptionAccess',
 
   'PUT  /approve-prescription-access':'UserPrescriptionController.updatePrescriptionAccessStatus',

@@ -12,6 +12,10 @@ module.exports = {
       primaryKey: true,
       autoIncrement: true
     },
+    title: {
+      type: 'string',
+      required: true
+    },
     prescription: {
       type: 'string',
       required: true

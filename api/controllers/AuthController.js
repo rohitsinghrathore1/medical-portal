@@ -22,7 +22,8 @@ login: function(req, res) {
             if(err) res.send(err);
             return res.send({
               message: info.message,
-              user
+              user,
+              status: "SUCCESS"
             });
           });
         })(req, res);
@@ -32,7 +33,8 @@ logout: function(req, res) {
     req.logout();
     // res.redirect('/');
     res.send({
-      message: "logout success"
+      message: "logout success",
+      status: "SUCCESS"
     });
   }
 };

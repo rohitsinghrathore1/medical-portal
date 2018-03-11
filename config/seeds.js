@@ -130,36 +130,42 @@ module.exports.seeds = {
     data: [
       {
         id: 1,
+        title:"Prescription 1",
         prescription: "some prescription 1",
         medical_record_id: 1,
         user_id: 1
       },
       {
         id: 2,
+        title:"Prescription 2",
         prescription: "some prescription 2",
         medical_record_id: 2,
         user_id: 1
       },
       {
         id: 3,
+        title:"Prescription 3",
         prescription: "some prescription 3",
         medical_record_id: 3,
         user_id: 4
       },
       {
         id: 4,
+        title:"Prescription 4",
         prescription: "some prescription 4",
         medical_record_id: 4,
         user_id: 5
       },
       {
         id: 5,
+        title:"Prescription 5",
         prescription: "some prescription 5",
         medical_record_id: 5,
         user_id: 5,
       },
       {
         id: 6,
+        title:"Prescription 6",
         prescription: "some prescription 6",
         medical_record_id: 1,
         user_id: 1
